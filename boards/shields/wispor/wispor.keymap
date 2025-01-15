@@ -3,16 +3,20 @@
         compatible = "zmk,keymap";
 
         default_layer { // Layer 0
-            // |   TAB    | Q | W | E | R | T | | z | U | I | O | P | Ü |
-            // | CapsLock | A | S | D | F | G | | H | J | K | L | Ö | Ä |
-            // | Shift    | Y | X | C | V | B | | N | M | , | . | - |   |
-            //                    |   |   |   | |  | SPACE |  |
             bindings = <
-                &kp TAB      &kp Q       &kp W       &kp E       &kp R       &kp T   |   &kp z       &kp U       &kp I       &kp O       &kp P       &kp UUML
-                &kp CAPSLOCK &kp A       &kp S       &kp D       &kp F       &kp G   |   &kp H       &kp J       &kp K       &kp L       &kp OEUML   &kp AEUML
-                &kp SHIFT    &kp Y       &kp X       &kp C       &kp V       &kp B   |   &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &none
-                                                     &none       &none       &none   |   &none       &kp SPACE   &none
-
+            //╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
+            //| Tab       | Q         | W         | E         | R         | T         |   | Z         | U         | I         | O         | P         | Ü         |
+                &kp TAB     &kp Q       &kp W      &kp E       &kp R        &kp T           &kp z       &kp U       &kp I       &kp O       &kp P       &kp UUML
+            //├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
+            //| Caps Lock | A         | S         | D         | F         | G         |   | H         | J         | K         | L         | Ö         | Ä         |
+                &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp OEUML   &kp AEUML
+            //├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
+            //| Shift     | Y         | X         | C         | V         | B         |   | N         | M         | ,         | .         | -         |           |
+                &kp SHIFT    &kp Y       &kp X       &kp C       &kp V       &kp B          &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &none
+            //╰───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────╯
+            //                                    |           |           |           |   |           | Space     |           |
+                                                    &none       &none       &none           &none       &kp SPACE   &none
+            //                                    ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
             >;
         };
     };
