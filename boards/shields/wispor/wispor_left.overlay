@@ -1,3 +1,5 @@
+#include "wispor.dtsi"
+
 &kscan0 {
     row-gpios
         = <&pro_micro 02 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN> // P0.17
