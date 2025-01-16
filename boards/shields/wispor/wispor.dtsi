@@ -1,5 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include "wispor-layouts.dtis"
+
+&physical_layout0 {
+    transform = <&default_transform>;
+};
+
 / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -25,6 +31,6 @@
 
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 };
