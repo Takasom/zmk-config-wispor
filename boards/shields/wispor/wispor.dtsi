@@ -22,7 +22,7 @@
             RC(0, 0)   RC(0, 1)   RC(0, 2)   RC(0, 3)   RC(0, 4)   RC(0, 5)     RC(0, 6)   RC(0, 7)   RC(0, 8)   RC(0, 9)   RC(0, 10)  RC(0, 11)
         //  LKEY 7   |  LKEY 8  | LKEY 9   | LKEY 10  | LKEY 11  | LKEY 12      RKEY 7   | RKEY 8   | RKEY 9   | RKEY 10  | RKEY 11  | RKEY 12
             RC(1, 0)   RC(1, 1)   RC(1, 2)   RC(1, 3)   RC(1, 4)   RC(1, 5)     RC(1, 6)   RC(1, 7)   RC(1, 8)   RC(1, 9)   RC(1, 10)  RC(1, 11)
-        //  LKEY 13  |  LKEY 14 | LKEY 15  | LKEY 16  | LKEY 17  | LKEY 18      RKEY 13  | RKEY 14  | RKEY 15  | RKEY 16  | RKEY 17 | RKEY 18
+        //  LKEY 13  |  LKEY 14 | LKEY 15  | LKEY 16  | LKEY 17  | LKEY 18      RKEY 13  | RKEY 14  | RKEY 15  | RKEY 16  | RKEY 17  | RKEY 18
             RC(2, 0)   RC(2, 1)   RC(2, 2)   RC(2, 3)   RC(2, 4)   RC(2, 5)     RC(2, 6)   RC(2, 7)   RC(2, 8)   RC(2, 9)   RC(2, 10)  RC(2, 11)
         //                                   LKEY 19  | LKEY 20  | LKEY 21      RKEY 19  | RKEY 20  | RKEY 21
                                              RC(3, 0)   RC(3, 1)   RC(3, 2)     RC(3, 3)   RC(3, 4)   RC(3, 5)
